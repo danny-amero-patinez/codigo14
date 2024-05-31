@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\codigo\\tw\\frontendnet\\wwwroot\\css\\guest.css",
+      "PackagePath": "staticwebassets\\css\\guest.css"
+    },
+    {
+      "Id": "C:\\codigo\\tw\\frontendnet\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\codigo\\tw\\frontendnet\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\codigo\\tw\\frontendnet\\wwwroot\\images\\fondo.jpg",
+      "PackagePath": "staticwebassets\\images\\fondo.jpg"
+    },
+    {
+      "Id": "C:\\codigo\\tw\\frontendnet\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\codigo\\tw\\frontendnet\\wwwroot\\js\\cambio_tema.js",
+      "PackagePath": "staticwebassets\\js\\cambio_tema.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.frontendnet.props",
+      "PackagePath": "build\\frontendnet.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.frontendnet.props",
+      "PackagePath": "buildMultiTargeting\\frontendnet.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.frontendnet.props",
+      "PackagePath": "buildTransitive\\frontendnet.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.frontendnet.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,33 @@
+@model Pelicula
+
+<div class="card mt-3">
+    <div class="row g-0">
+        <div class="col-md-4">
+            <img src="@((Model.Poster == "N/A") ? "https://via.placeholder.com/300x450" : Model.Poster)" alt="@Model.Titulo" class="img-fluid img-thumbnail mt-2 ms-2" style="max-height: 300px;">
+        </div>
+        <div class="col-md-8">
+            <div class="card-body">
+                <div class="mb-3 ps-3">
+                    <label asp-for="PeliculaId" class="form-label form-text"></label>
+                    <div class="form-text text-body">@Model.PeliculaId</div>
+                </div>
+                <div class="mb-3 ps-3">
+                    <label asp-for="Titulo" class="form-label form-text"></label>
+                    <div class="form-text text-body">@Model.Titulo</div>
+                </div>
+                <div class="mb-3 ps-3">
+                    <label asp-for="Anio" class="form-label form-text"></label>
+                    <div class="form-text text-body">@Model.Anio</div>
+                </div>
+                <div class="mb-3 ps-3">
+                    <label asp-for="Poster" class="form-label form-text"></label>
+                    <div class="form-text text-body">@Model.Poster</div>
+                </div>
+                <div class="mb-3 ps-3">
+                    <label asp-for="Sinopsis" class="form-label form-text"></label>
+                    <div class="form-text text-body">@Model.Sinopsis</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
